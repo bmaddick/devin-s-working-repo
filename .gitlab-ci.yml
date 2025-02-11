@@ -1,0 +1,10 @@
+include:
+    - project: 'one-host/devops'
+      file: '/ci/templates/remote-module-npm9.gitlab-ci.yml'
+
+variables:
+    STATICS_DIST_PATH: './dist/'
+
+integration-test:
+    extends: .testcafeIntegrationTest
+

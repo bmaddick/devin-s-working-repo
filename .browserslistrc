@@ -1,0 +1,2 @@
+# The official FE Core list of supported browsers
+extends @indeed/browserslist-config-frontend
